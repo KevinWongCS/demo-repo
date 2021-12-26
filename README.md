@@ -2,7 +2,7 @@
 name: kevin wong\
 file: readme.md\
 date: 12/26/21\
-desc: read me
+desc: learning git from ![freeCodeCamp](https://www.youtube.com/watch?v=RGOj5yH7evk&t=192s)
 
 demo repo to learn git
 
@@ -28,4 +28,9 @@ commit => save your files in git\
 push => upload git commits to a remote repo, like github, bitbucket....etc\
 pull => down changes from remote repo to your local machine, the opposite of push
 
+
 note: md = markdown text
+
+note: the .git folder contains all commits/ code changes over time from the beginning of repository. Use "ls -a" command in bash to view hidden folders.
+
+
