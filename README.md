@@ -14,24 +14,24 @@ Good for tracking and looking at previous instances.
 
 
 ## Terms
-directory => folder\
-terminal or Command line => Interface for text commands\
-CLI => command line interface\
-cd => change directory\
-code Editor => Word Processor for writing code\
-repository => Project, or the folder/place where your project is kept
+* directory => folder\
+* terminal or Command line => Interface for text commands\
+* CLI => command line interface\
+* cd => change directory\
+* code Editor => Word Processor for writing code\
+* repository => Project, or the folder/place where your project is kept
 
 ## Git commands
-clone => bring a repo that is hosted remotely into a folder on your local pc\
-add => track your files and changes in git\
-* git add . tracks all files that have been changed\
-* or\
-* git add <filename> to track that specific file or folder\
-git status => list status of tracked and untracked files\
-commit => save your files in git\
-* changes are made to the .git foler locally
-push => upload git commits to a remote repo, like github, bitbucket....etc\
-pull => down changes from remote repo to your local machine, the opposite of push
+* clone => bring a repo that is hosted remotely into a folder on your local pc
+* add => track your files and changes in git
+   * git add . tracks all files that have been changed
+   * or
+   * git add <filename> to track that specific file or folder
+* git status => list status of tracked and untracked files
+* commit => save your files in git
+   * changes are made to the .git foler locally
+* push => upload git commits to a remote repository, like github, bitbucket....etc
+* pull => down changes from remote repo to your local machine, the opposite of push
 
 
 note: md = markdown text
