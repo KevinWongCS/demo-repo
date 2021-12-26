@@ -37,6 +37,6 @@ Good for tracking and looking at previous instances.
 
 note: md = markdown text
 
-note: the .git folder contains all commits/ code changes over time from the beginning of repository. Use "ls -a" command in bash to view hidden folders.
+note: the ".git" hidden folder contains all commits and code changes over time from the beginning of repository. Use "ls -a" command in bash to view hidden folders.
 
 
