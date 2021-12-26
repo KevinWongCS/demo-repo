@@ -24,7 +24,12 @@ repository => Project, or the folder/place where your project is kept
 ## Git commands
 clone => bring a repo that is hosted remotely into a folder on your local pc\
 add => track your files and changes in git\
+* git add . tracks all files that have been changed\
+* or\
+* git add <filename> to track that specific file or folder\
+git status => list status of tracked and untracked files\
 commit => save your files in git\
+* changes are made to the .git foler locally
 push => upload git commits to a remote repo, like github, bitbucket....etc\
 pull => down changes from remote repo to your local machine, the opposite of push
 
