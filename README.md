@@ -2,7 +2,7 @@
 name: kevin wong\
 file: readme.md\
 date: 12/26/21\
-desc: read me\
+desc: read me
 
 demo repo to learn git
 
