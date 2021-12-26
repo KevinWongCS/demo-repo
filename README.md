@@ -13,7 +13,7 @@ Good for tracking and looking at previous instances.
 
 
 
-## TERMS
+## Terms
 directory => folder\
 terminal or Command line => Interface for text commands\
 CLI => command line interface\
