@@ -19,7 +19,7 @@ terminal or Command line => Interface for text commands\
 CLI => command line interface\
 cd => change directory\
 code Editor => Word Processor for writing code\
-repository => Project, or the folder/place where your project is kept\
+repository => Project, or the folder/place where your project is kept
 
 ## Git commands
 clone => bring a repo that is hosted remotely into a folder on your local pc\
