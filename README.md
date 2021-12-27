@@ -31,12 +31,21 @@ Good for tracking and looking at previous instances.
 * commit => save your files in git
    * changes are made to the .git foler locally
 * push => upload git commits to a remote repository, like github, bitbucket....etc
-   * git push origin master: "origin" is an option for location of git repository and "master" is the name of the branch
+   * git push origin master => "origin" is an option for location of git repository and "master" is the name of the branch
 * pull => down changes from remote repo to your local machine, the opposite of push
+
+## Branches
+* git branch => shows what branch you are in (master is normally the parent branch)
+* git checkout -b <branch name> => creates a branch
+
+
+
 
 
 note: md = markdown text
 
 note: the ".git" hidden folder contains all commits and code changes over time from the beginning of repository. Use "ls -a" command in bash to view hidden folders.
+
+note: when you modify code in VS Code a "M" appears next to the file in the "explorer" tab
 
 
