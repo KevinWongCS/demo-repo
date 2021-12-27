@@ -37,7 +37,10 @@ Good for tracking and looking at previous instances.
 ## Branches
 * git branch => shows what branch you are in (master is normally the parent branch)
 * git checkout -b <branch name> => creates a branch
-
+* git add <filename> => stage or track the files that have been modified
+* git commit -m "<describe what was done>"
+* git diff <branch name> => shows what lines of code(from "branch name") was changed compared to the "master" branch
+* git merge <branch name> => will merge lines of code(from "branch name") to "master branch"
 
 
 
