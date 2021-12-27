@@ -51,7 +51,7 @@ Good for tracking and looking at previous instances.
 * git branch -d \<name of branch you want to delete\> => almost never reuse branches that have been merged, so delete them
   
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 note: md = markdown text
 
@@ -59,4 +59,8 @@ note: the ".git" hidden folder contains all commits and code changes over time f
 
 note: when you modify code in VS Code a "M" appears next to the file in the "explorer" tab
 
-
+note: git commit -am OR git commit -a -m => adds and commits at the same time
+   * this only works for modified files!!! example: modified: index.html
+   * this won't work for created files, example: created: index.html
+      * you would follow the staging process, git status, git add \<filename\>, git commit -m "description"
+ 
