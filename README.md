@@ -26,7 +26,7 @@ Good for tracking and looking at previous instances.
 * add => track your files and changes in git
    * git add . tracks all files that have been changed
    * or
-   * git add <filename> to track that specific file or folder
+   * git add \<filename\> to track that specific file or folder
 * git status => list status of tracked and untracked files
 * commit => save your files in git
    * changes are made to the .git foler locally
@@ -36,11 +36,11 @@ Good for tracking and looking at previous instances.
 
 ## Branches
 * git branch => shows what branch you are in (master is normally the parent branch)
-* git checkout -b <branch name> => creates a branch
-* git add <filename> => stage or track the files that have been modified
+* git checkout -b \<branch name\> => creates a branch
+* git add \<filename\> => stage or track the files that have been modified
 * git commit -m "describe what was done"
-* git diff <branch name> => shows what lines of code(from "branch name") was changed compared to the "master" branch
-* git merge <branch name> => will merge lines of code(from "branch name") to "master branch"
+* git diff \<branch name\> => shows what lines of code(from "branch name") was changed compared to the "master" branch
+* git merge \<branch name\> => will merge lines of code(from "branch name") to "master branch"
    * note: more commonly we see the branch pushed into github then making a pull request (pr)
    * so let's do the more common method
    * git push => this will prompt you to set the the upstream for the new branch using the command provided to you.
