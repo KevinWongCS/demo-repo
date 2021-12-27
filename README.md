@@ -58,7 +58,7 @@ Good for tracking and looking at previous instances.
 * git log => to see a log of the commits.
    * you can use the unique commit hash in git reset --hard \<hash number\> to undo all the subsequent commits including the one referenced with hash number
 
-## forking
+## Forking
 * you fork because you might not have full administrative permissions to the repository and/or the files
 * once forked into your repository you have full permission to edit the full repository
 * If you wanted to get your changes into the original repository you would make a pull request (pr)
