@@ -43,9 +43,13 @@ Good for tracking and looking at previous instances.
 * git merge <branch name> => will merge lines of code(from "branch name") to "master branch"
    * note: more commonly we see the branch pushed into github then making a pull request (pr)
    * so let's do the more common method
-* git push => this will prompt you to set the the upstream for the new branch using the command provided to you.
+   * git push => this will prompt you to set the the upstream for the new branch using the command provided to you.
 * once your branch is merged, you will often delete your source branch and switch back to the master branch
 * if you want to create a new pull request (pr), you will do it from a new branch and start the process over again
+* git checkout <master> => switch back to master locally. GETs most recent master branch to local pc
+* git pull => to get the most recent master branch
+* git branch -d <name of branch you want to delete> => almost never reuse branches that have been merged, so delete them
+  
 
 
 
