@@ -51,6 +51,19 @@ Good for tracking and looking at previous instances.
 * git branch -d \<name of branch you want to delete\> => almost never reuse branches that have been merged, so delete them
 * pull master to local repo because other people are also merging into master as well and you should have the most up to date code when working on features
 
+## Undoing a commit
+* git reset \<filename\> => reverts last commit to file
+* git reset head~1 => also works if you don't have the filename
+* don't forget to use "git diff" to compare changes
+* git log => to see a log of the commits.
+   * you can use the unique commit hash in git reset --hard \<hash number\> to undo all the subsequent commits including the one referenced with hash number
+
+## forking
+* you fork because you might not have full administrative permissions to the repository and/or the files
+* once forked into your repository you have full permission to edit the full repository
+* If you wanted to get your changes into the original repository you would make a pull request (pr)
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 note: md = markdown text
