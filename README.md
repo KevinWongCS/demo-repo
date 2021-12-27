@@ -41,7 +41,11 @@ Good for tracking and looking at previous instances.
 * git commit -m "describe what was done"
 * git diff <branch name> => shows what lines of code(from "branch name") was changed compared to the "master" branch
 * git merge <branch name> => will merge lines of code(from "branch name") to "master branch"
-
+   * note: more commonly we see the branch pushed into github then making a pull request (pr)
+   * so let's do the more common method
+* git push => this will prompt you to set the the upstream for the new branch using the command provided to you.
+* once your branch is merged, you will often delete your source branch and switch back to the master branch
+* if you want to create a new pull request (pr), you will do it from a new branch and start the process over again
 
 
 
